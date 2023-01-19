@@ -1,0 +1,146 @@
+/* 1150px */
+@media (max-width:1150px) {
+        .container{
+            padding: 0 40px;
+        }
+        .aboutContent .img_section{
+            width: 100%;
+        }
+        .aboutContent .img_section img{
+            display: block;
+            margin: auto;
+               
+        }
+                                  section {
+                                      padding: 3.5rem 0;
+                                  }
+                
+                                  .aboutContent {
+                                      grid-template-columns: repeat(2, 1fr);
+                                      width: 100%;
+                                  }
+                
+                                  #about .title {
+                                      margin-bottom: 2rem;
+                                      padding-bottom: 2rem;
+                
+                                  }
+                
+                                  #about .title::before {
+                                      content: '';
+                                      width: 15rem;
+                                      height: 4px;
+                                      background-color: var(--secondaryColor);
+                                      position: absolute;
+                                      top: 65%
+                                  }
+                
+                                  .aboutContent .img_section img {
+                                      width: 350px;
+                                      height: 350px;
+                                  }
+                                  .content_section .about_txt{
+                                         margin-right: 0.2rem;
+                                    }
+    }
+
+@media (max-width:905px) {
+      .btn {
+  
+    display: block;
+}
+nav{
+    position:fixed;
+    flex-direction: column;
+    min-width: 280px;
+    min-height: 80vh;
+    top: 0;
+    right: -100%;
+    background-color: white;
+    padding: 0.4rem 2.5rem;
+    align-items: flex-start;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+nav.active{
+    right: 0%;
+    transition: all 1s ease-in-out;
+}
+nav li{
+    list-style: none;
+    margin-top: 2rem;
+}
+header nav .close-btn{
+    position: absolute;
+    top: 0;
+    left:0;
+    margin: 25px;
+}
+/* avatar section */
+
+#avatar .content_manager {
+
+    grid-template-columns: repeat(1, 1fr);
+  
+    align-items: center;
+}
+#avatar .avatar_manager img {
+    display: none;
+}
+img{
+    display: none;
+}
+   #avatar .avatar_content .txt-content {
+       display: flex;
+       justify-content: center;
+   }
+        #avatar .avatar_content .txt_1 {
+            font-size: 2.5rem;
+            color: white;
+        }
+    
+        #avatar .avatar_content .txt_2 {
+            font-size: 3.5rem;
+
+            color: white;
+    
+        }
+    
+        #avatar .avatar_content .normaltxt {
+            font-size: 2.5rem;
+            color: white;
+        }
+    
+        #avatar .avatar_content .changetxt {
+            font-size: 2.5rem;
+            /* margin: 0.6rem 0; */
+            color: var(--secondaryColor);
+        }
+
+        section{
+            padding: 3.5rem 0;
+        }
+        .aboutContent{
+            grid-template-columns: repeat(1,1fr);
+            width: 100%;
+        }
+                                #about .title {
+                                    margin-bottom: 2rem;
+                                    padding-bottom: 2rem;
+
+                                }
+                
+                                #about .title::before {
+                                    content: '';
+                                    width: 15rem;
+                                    height: 4px;
+                                    background-color: var(--secondaryColor);
+                                    position: absolute;
+                                    top: 65%
+                                }
+                
+                                .aboutContent .img_section img{
+                                    width: 350px;
+                                    height: 350px;
+                                }
+    } 
