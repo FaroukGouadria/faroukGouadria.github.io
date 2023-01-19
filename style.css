@@ -248,6 +248,7 @@ nav li a:hover{
                 border-radius: 5px;
                 width: 100%;
                 box-shadow: 5px 5px 5px rgba(0, 0, 0,.5);
+                transition: all 0.5s ease-in-out;
                 }
                  #services .card_content .cards i{
                     color: var(--secondaryColor);
@@ -277,9 +278,14 @@ nav li a:hover{
                         transition: all 0.5s ease;
 
                  }
-                  #services .card_content .cards button:hover{
+                  #services .card_content .cards:hover{
                         transform: translateY(-10%);
                         background: var(--lightColor);
                         color: #17202a;
+                }
+                 #services .card_content .cards button:hover{
+                        transform: translateY(30%);
+                        background: var(--primaryColor);
+                        box-shadow: 1px solid #000;
                 }
         
